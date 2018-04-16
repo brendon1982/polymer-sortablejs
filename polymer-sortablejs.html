@@ -1,5 +1,5 @@
 <link rel="import" href="../polymer/polymer.html">
-<script src="../Sortable/Sortable.js"></script>
+<script src="../sortable/Sortable.js"></script>
 
 <dom-module id="sortable-js">
   <template>
@@ -155,7 +155,7 @@
       }
     },
 
-    groupChanged             : function(value) { 
+    groupChanged             : function(value) {
       if(typeof(value) === 'string') {
         return this.set('group', {name: value});
       }
