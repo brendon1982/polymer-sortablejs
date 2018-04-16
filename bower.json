@@ -26,6 +26,6 @@
   ],
   "dependencies": {
     "polymer": "polymer/polymer#^1.6.0",
-    "Sortable": "sortablejs#^1.4.2"
+		"sortable": "https://github.com/brendon1982/Sortable.git#1.8.0"
   }
 }
